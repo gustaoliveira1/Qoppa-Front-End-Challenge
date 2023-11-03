@@ -1,0 +1,34 @@
+#user-registration-form {
+  padding: 0 1.5rem;
+  gap: 3rem;
+}
+
+#user-registration-form > header >  h2 {
+  color: var(--color-primary); /* color set in ../../../../styles/global.css */
+}
+
+#user-registration-form > .inputs-container {
+  gap: 1.5rem;
+}
+
+#user-registration-form > footer {
+  gap: 1rem;
+}
+
+#user-registration-form > footer > .create-account-btn {
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: .5rem;
+  background-color: var(--color-primary);
+  padding: .5rem 0;
+}
+
+#user-registration-form > footer > p {
+  font-size: .75rem;
+}
+
+#user-registration-form > footer > p > a {
+  color: var(--color-primary);
+  text-decoration: none;
+}

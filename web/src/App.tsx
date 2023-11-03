@@ -1,3 +1,11 @@
+import "./App.css";
+
+import { UserRegistration } from "./pages/UserRegistration/";
+
 export default function App() {
-  return <h1>hello world</h1>;
+  return (
+    <main id="App">
+      <UserRegistration />
+    </main>
+  );
 }

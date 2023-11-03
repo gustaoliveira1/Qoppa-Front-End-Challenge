@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #03658C;
+}
+
+*{ 
+  margin: 0; 
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* reusable classes */
+
+/* display flex */
+.display-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+/* container sizes */
+
+.wrapper {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.width-full {
+  width: 100%;
+}
