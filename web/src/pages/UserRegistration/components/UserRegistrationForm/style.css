@@ -24,6 +24,10 @@
   padding: .5rem 0;
 }
 
+#user-registration-form > footer > .create-account-btn.error {
+  background-color: red;
+}
+
 #user-registration-form > footer > p {
   font-size: .75rem;
 }
